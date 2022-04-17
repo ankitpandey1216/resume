@@ -385,7 +385,7 @@ section:nth-child(2n){
 }
 .timeline-traveller{
     position: sticky;
-    
+    margin: 50%;
     top: 30%;
     rotate: 90deg;
     color: black;
