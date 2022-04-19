@@ -31,6 +31,15 @@ section{
 #about{
     width: 100%;
 }
+.about-text{
+    font-family: sans-serif; 
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px; 
+    font-weight: 300;
+    color: rgb(61, 59, 59);
+}
  section:nth-child(2n+1){
     background-color: white;
     
@@ -49,6 +58,7 @@ section:nth-child(2n){
     /* margin: 10px auto; */
     padding-top: 10px;
     font-weight: 400;
+
     
 }
 
@@ -394,6 +404,7 @@ section:nth-child(2n){
     
     
 } 
+
 /* .timeline-box:nth-child(2n+1):after{
     content:"";
     border-radius: 50%;
@@ -467,5 +478,28 @@ section:nth-child(2n){
     padding: 0px;
     
    
+    
+}
+
+/* Media Query */
+@media screen and (max-width : 600px) {
+    .timeline-divider{
+        left:2%;
+        
+        
+
+    }
+    .timeline-box{
+        width: 80%;
+        margin-left: 8% !important;
+    }
+    .about-text{
+        font-size:20px;
+    }
+    .skills-display{
+        margin-bottom: 10%;
+    }
+    
+
     
 }
